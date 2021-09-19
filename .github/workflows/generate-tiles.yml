@@ -10,7 +10,7 @@ jobs:
   generate-tiles:
     runs-on: ubuntu-latest
     container:
-      image: ./Dockerfile 
+      image: 'Dockerfile'
     steps:
       - uses: actions/checkout@v2
         with:
